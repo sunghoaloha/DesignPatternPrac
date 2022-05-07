@@ -22,3 +22,6 @@
 ![Strategy Pattern](https://user-images.githubusercontent.com/76836771/166935547-e4f83a0e-050d-4a21-aa65-4b4e5fd8b2e0.JPG)
 
 예를 들어 오리 객체가 꽥! 소리를 내는 것을 구현하고 싶을 때, 단순히 오리 클래스 안에 quack() 함수를 만드는 것이 아니라, QuackBehavior라는 Interface를 변수로 가지도록 해서 이것을 implement하는 Quack Class 객체를 assign 해준다.이렇게 하면 오리의 꽥 소리를 내는 동작을 동적으로 바꿀 수도 있고 나중에 새로운 울음소리를 추가하기도 쉽다. 또 만들어 놓은 울음소리를 재사용할 수 있다.
+
+### 2. Observer Pattern
+![image]https://github.com/sunghoaloha/DesignPatternPrac/issues/1#issue-1228487454
