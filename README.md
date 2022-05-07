@@ -3,7 +3,8 @@
 
 
 ## 진행상황
-* Strategy Pattern 정리
+* Strategy Pattern 정리 done
+* Observer Pattern 정리 done
 
 ## 내용 정리
 ### 서문 & 디자인 패턴 소개
@@ -24,4 +25,14 @@
 예를 들어 오리 객체가 꽥! 소리를 내는 것을 구현하고 싶을 때, 단순히 오리 클래스 안에 quack() 함수를 만드는 것이 아니라, QuackBehavior라는 Interface를 변수로 가지도록 해서 이것을 implement하는 Quack Class 객체를 assign 해준다.이렇게 하면 오리의 꽥 소리를 내는 동작을 동적으로 바꿀 수도 있고 나중에 새로운 울음소리를 추가하기도 쉽다. 또 만들어 놓은 울음소리를 재사용할 수 있다.
 
 ### 2. Observer Pattern
-![image]https://github.com/sunghoaloha/DesignPatternPrac/issues/1#issue-1228487454
+![Observer Pattern](https://user-images.githubusercontent.com/76836771/167232698-2480f0ca-fa1e-40c3-946d-1d68d87ef539.png)
+
+한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체들한테 연락이 가고 자동으로 내용이 갱신되는 one-to-many 의존성을 정의합니다.
+
+직접 구현할 수도 있고, jdk에 내장된 observerable, observer등을 사용할 수 있다. 자바에는 옵저버 패턴을 구현한 것이 여럿 있다.(Swing의 Listener등)
+
+옵저버와 주제 간의 연결은 느슨하다. 서로 독립적으로 재사용할 수 있고 교체돼도 서로에게 영향을 미치지 않는다. 상호의존성이 최소화되어서 유연한 시스템을 구축할 수 있다. (따라서 특정 연락 순서에 의존하도록 하는 것은 좋지 않음) 
+
+상태 변경을 전달하는 방법은 Subject가 Observer에게 Data를 전달해주는 Push방식과 Observer가 Subject의 Data를 가져가는 Pull 방식이 있습니다.
+
+
