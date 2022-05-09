@@ -17,7 +17,6 @@
 * State Pattern
 * Proxy Pattern
 * Compound pattern (espacially MVC??)
-![image](https://user-images.githubusercontent.com/76836771/167367308-eafa85ad-6462-4d27-9646-a51014449d5d.png)
 
 
 ## 내용 정리
