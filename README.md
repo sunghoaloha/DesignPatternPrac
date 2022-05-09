@@ -3,8 +3,22 @@
 
 
 ## 진행상황
-* Strategy Pattern 정리 done
-* Observer Pattern 정리 done
+* Strategy Pattern :heavy_check_mark:
+* Observer Pattern :heavy_check_mark:
+* Decorator Pattern :heavy_check_mark:
+* Factory Pattern
+* Singleton Pattern
+* Command Pattern
+* Adapter Pattern
+* Facade Pattern
+* Template Method Pattern
+* Iterator Pattern
+* Composite Pattern
+* State Pattern
+* Proxy Pattern
+* Compound pattern (espacially MVC??)
+![image](https://user-images.githubusercontent.com/76836771/167367308-eafa85ad-6462-4d27-9646-a51014449d5d.png)
+
 
 ## 내용 정리
 ### 서문 & 디자인 패턴 소개
